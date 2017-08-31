@@ -1732,7 +1732,7 @@ button {
 #back_to_top {
     height: 55px;
     width: 55px;
-    background: #FF704C;
+    background: #e74c3c;
     border-radius: 3px;
     right: -100px;
     bottom: 15px;
@@ -1751,7 +1751,7 @@ button {
 
 #back_to_top:hover,
 #back_to_top:focus {
-    background: #FF944C;
+    background: #EF7A6E;
     box-shadow: 0 5px 10px 0 rgba(35, 50, 56, 0.1);
 }
 
@@ -3734,7 +3734,7 @@ footer.dark .subfooter .social_media a {
 
 .page_title .price .inner {
     margin: -5px;
-    background-color: #ff704c;
+    background-color: #e74c3c;
     width: 70px;
     height: 70px;
     border-radius: 4px;
@@ -3751,12 +3751,12 @@ footer.dark .subfooter .social_media a {
     height: 80px;
     margin-top: 10px;
     border-radius: 4px;
-    background: rgba(255, 92, 51, 0.3);
+    background: rgba(174, 55, 43, 0.50);
 }
 
 .page_title .price2 .inner {
     margin: -5px;
-    background-color: #ff704c;
+    background-color: #e74c3c;
     width: 80px;
     height: 80px;
     border-radius: 4px;
@@ -4443,6 +4443,53 @@ footer.dark .subfooter .social_media a {
     background-color: rgba(247, 247, 247, 0.95);
 }
 
+
+
+.contact-form-page {
+    margin-top: 30px;
+}
+
+.contact-form-page .form-control {
+    height: 52px;
+    border-radius: 1px;
+    border: 1px solid #dfdfdf;
+    background-color: #fcfcfc;
+}
+
+.contact-form-page .form-group {
+    padding-bottom: 30px;
+}
+
+.contact-form-page .form-group textarea {
+    height: 135px;
+}
+
+
+
+
+
+.contact_page {
+    height: 650px;
+}
+
+.contact-form-page .form-group1 {
+    padding-bottom: 15px;
+    top: -23px;
+    position: relative;
+}
+
+.contact-form-page .form-group1 textarea {
+    height: 240px;
+
+}
+
+
+
+
+
+
+
+
 #contact-form-page {
     margin-top: 30px;
 }
@@ -4489,7 +4536,7 @@ footer.dark .subfooter .social_media a {
 
 #contact_page .contact-info .social-media i,
 #contact_page_style_2 .contact-info .social-media i {
-    background-color: #fff;
+    background-color: #fff; /* #fff */
     -webkit-transition: all ease 0.45s;
     transition: all ease 0.45s;
     width: 35px;
@@ -4508,7 +4555,7 @@ footer.dark .subfooter .social_media a {
 
 #contact_page_style_2 #map-canvas {
     width: 100%;
-    height: 168px;
+    height: 168px; /*168px*/
 }
 
 #contact_page_style_2 .contact-info {
@@ -5252,7 +5299,7 @@ figure:hover .room_list_slider .owl-nav .owl-next {
 }
 
 .similar_rooms article .price {
-    background: #ff704C;
+    background: #e74c3c;
     width: 50px;
     height: 50px;
     border-radius: 4px;
@@ -5351,3 +5398,8 @@ figure:hover .room_list_slider .owl-nav .owl-next {
 .index-rooms article {
     margin-bottom: 20px;
 }
+.container-secondary{
+    overflow: hidden;
+    position: relative;
+    bottom: 53px;
+    }
