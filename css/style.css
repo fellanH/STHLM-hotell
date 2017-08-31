@@ -1168,7 +1168,22 @@ button {
     position: relative;
 }
 
+.main_title-index {
+    position: relative;
+}
+
 .main_title h2 {
+    font-size: 2.2em;
+    font-family: 'Raleway', sans-serif;
+    display: inline-block;
+    position: relative;
+    color: #555;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.5px;
+}
+
+.main_title-index h2 {
     font-size: 2.2em;
     font-family: 'Raleway', sans-serif;
     display: inline-block;
@@ -1207,7 +1222,20 @@ button {
     color: #555;
 }
 
+.main_title-index.mt_gray h2 {
+    color: #555;
+}
+
 .main_title:after {
+    content: "";
+    display: block;
+    height: 5px;
+    position: relative;
+    width: 80px;
+    margin: 10px auto;
+}
+
+.main_title-index:after {
     content: "";
     display: block;
     height: 5px;
@@ -1251,6 +1279,10 @@ button {
 
 .main_description {
     margin-bottom: 50px;
+}
+
+.main_description_index {
+    margin-bottom: 5px;
 }
 
 .main_description {
@@ -2283,6 +2315,11 @@ section.blue_bg {
 section .main_title {
     margin-bottom: 30px;
     margin-top: 20px;
+}
+
+section .main_title-index {
+    margin-bottom: 0px;
+    margin-top: 50px;
 }
 
 /* ---------- 5.2 Revolution Slider ---------- */
