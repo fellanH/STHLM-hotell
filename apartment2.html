@@ -283,89 +283,157 @@
                         </div> 
                     </div>
                     <div class="col-md-4">
-                        <div class="sidebar">
-                            <aside class="widget">
-                                <div class="vbf">
-                                    <h2 class="form_title"><i class="fa fa-calendar"></i> Boka Online </h2>
-                                    <form id="booking-form" class="inner">
-                                        <div class="form-group">
-                                            <input class="form-control" name="booking-name" placeholder="Namn" type="text">
-                                        </div>
-                                        <div class="form-group">
-                                            <input class="form-control" name="booking-email" placeholder="E-Post" type="email">
-                                        </div>
-                                        <div class="form-group">
-                                            <input class="form-control" name="booking-phone" placeholder="Telefon Nummer" type="text">
-                                        </div>
-                                        <div class="form-group">
-                                            <div class="form_select">
-                                                <select name="booking-roomtype" class="form-control" title="Select Room Type" >
-                                                    <option class="bookingform-type" disabled="disabled"><strong>Rum</strong></option>
-                                                    <option value="Single Room">Enkelrum</option>
-                                                    <option value="Double Room">Studio</option>
-                                                    <option value="Deluxe Room">Studio Extra</option>
-                                                    <option value="Deluxe Room">Dubbelrum</option>
-                                                    <option value="Deluxe Room">Familjerum</option>
-                                                    <option value="Deluxe" disabled="disabled"></option>
-                                                    <option class="bookingform-type" disabled="disabled"><strong>Lägenheter</strong></option>>
-                                                    <option value="Single Room">Vindsvåningen</option>
-                                                    <option value="Single Room"selected>Etage Lägenheterna</option>
-                                                </select>
+                            <!--<div class="sidebar"> -->
+                                <!-- <aside class="widget">
+                                    <div class="vbf">
+                                        <h2 class="form_title"><i class="fa fa-calendar"></i> Boka Online </h2>
+                                        <form id="booking-form" class="inner">
+                                            <div class="form-group">
+                                                <input class="form-control" name="booking-name" placeholder="Namn" type="text">
                                             </div>
-                                        </div>
-                                        <div class="form-group col-md-6 col-sm-6 col-xs-12 nopadding">
-                                            <div class="form_select">
-                                                <select name="booking-adults" class="form-control md_noborder_right" title="Vuxna">
-                                                    <option class="bookingform-type" disabled="disabled"><strong>Vuxna</strong></option>
-                                                    <option value="0">0</option>
-                                                    <option value="1">1</option>
-                                                    <option value="2">2</option>
-                                                    <option value="3">3</option>
-                                                    <option value="4">4</option>
-                                                </select>
+                                            <div class="form-group">
+                                                <input class="form-control" name="booking-email" placeholder="E-Post" type="email">
                                             </div>
-                                        </div>
-                                        <div class="form-group col-md-6 col-sm-6 col-xs-12 nopadding">
-                                            <div class="form_select">
-                                                <select name="booking-children" class="form-control" title="Barn">
-                                                    <option class="bookingform-type" disabled="disabled"><strong>Barn</strong></option>
-                                                    <option value="0">0</option>
-                                                    <option value="1">1</option>
-                                                    <option value="2">2</option>
-                                                    <option value="3">3</option>
-                                                    <option value="4">4</option>
-                                                </select>
+                                            <div class="form-group">
+                                                <input class="form-control" name="booking-phone" placeholder="Telefon Nummer" type="text">
                                             </div>
-                                        </div>
-                                        <div class="form-group col-md-6 col-sm-6 col-xs-12 nopadding">
-                                            <div class="input-group">
-                                                <div class="form_date">
-                                                    <input type="text" class="datepicker form-control md_noborder_right" name="booking-checkin" placeholder="Ankomst Datum" readonly>
+                                            <div class="form-group">
+                                                <div class="form_select">
+                                                    <select name="booking-roomtype" class="form-control" title="Select Room Type">
+                                                            <option class="bookingform-type" disabled="disabled"><strong>Rum</strong></option>
+                                                            <option value="Single Room"selected>Enkelrum</option>
+                                                            <option value="Double Room">Studiorum</option>
+                                                            <option value="Deluxe Room">Studio Extra</option>
+                                                            <option value="Deluxe Room">Dubbelrum</option>
+                                                            <option value="Deluxe Room">Familjerum</option>
+                                                            <option value="Deluxe" disabled="disabled"></option>
+                                                            <option class="bookingform-type" disabled="disabled"><strong>Lägenheter</strong></option>>
+                                                            <option value="Single Room">Vindsvåningen</option>
+                                                            <option value="Single Room">Etage Lägenheterna</option>
+                                                    </select>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="form-group col-md-6 col-sm-6 col-xs-12 nopadding">
-                                            <div class="input-group">
-                                                <div class="form_date">
-                                                    <input type="text" class="datepicker form-control" name="booking-checkout" placeholder="Avresnings Datum" readonly>
+                                            <div class="form-group col-md-6 col-sm-6 col-xs-12 nopadding">
+                                                <div class="form_select">
+                                                    <select name="booking-adults" class="form-control md_noborder_right" title="Vuxna">
+                                                        <option class="bookingform-type" disabled="disabled"><strong>Vuxna</strong></option>>
+                                                        <option value="0">0</option>
+                                                        <option value="1">1</option>
+                                                        <option value="2">2</option>
+                                                        <option value="3">3</option>
+                                                        <option value="4">4</option>
+                                                    </select>
                                                 </div>
                                             </div>
+                                            <div class="form-group col-md-6 col-sm-6 col-xs-12 nopadding">
+                                                <div class="form_select">
+                                                    <select name="booking-children" class="form-control" title="Barn">
+                                                        <option class="bookingform-type" disabled="disabled"><strong>Barn</strong></option>>
+                                                        <option value="0">0</option>
+                                                        <option value="1">1</option>
+                                                        <option value="2">2</option>
+                                                        <option value="3">3</option>
+                                                        <option value="4">4</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="form-group col-md-6 col-sm-6 col-xs-12 nopadding">
+                                                <div class="input-group">
+                                                    <div class="form_date">
+                                                        <input type="text" class="datepicker form-control md_noborder_right" name="booking-checkin" placeholder="Ankomst Datum" readonly>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group col-md-6 col-sm-6 col-xs-12 nopadding">
+                                                <div class="input-group">
+                                                    <div class="form_date">
+                                                        <input type="text" class="datepicker form-control" name="booking-checkout" placeholder="Avresnings Datum" readonly>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <button class="button btn_lg btn_blue btn_full" type="submit">BOKA RUM NU</button>
+                                            <div class="a_center mt10">
+                                                <a href="http://booking.visbook.com/se/1157" class="a_b_f">AVANCERAT BOKNINGS FORMULÄR</a>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </aside> -->
+    
+    
+    
+                                <main class="contact_page">
+                                    <div class="row">
+                                          <div class="container-secondary">
+                                        <div class="container"> <!-- container -->
+                                             <div class="col-md-4"> <!-- 8 -->
+                                                <div class="main_title a_left a_top">
+                                                    <h2>Bokningsförfrågan</h2>
+                                                </div>
+                                                <form class="contact-form-page">
+                                                    <div class="row">
+                                                        <div class="form-group1 col-md-6 col-sm-6">
+                                                            <label class="control-label">Namn</label>
+                                                            <input type="text" class="form-control" name="name" placeholder="Ditt Namn">
+                                                        </div>
+                                                        <div class="form-group1 col-md-6 col-sm-6">
+                                                            <label class="control-label">Telefon nr</label>
+                                                            <input type="text" class="form-control" name="phone" placeholder="Telefon">
+                                                        </div>
+                                                        <div class="form-group1 col-md-6 col-sm-6">
+                                                            <label class="control-label">E-post</label>
+                                                            <input type="email" class="form-control" name="email" placeholder="E-post">
+                                                        </div>
+                                                        <div class="form-group1 col-md-6 col-sm-6">
+                                                            <label class="control-label">Ämne</label>
+                                                            <input type="text" class="form-control" name="subject" placeholder="Ämne">
+                                                        </div>
+                                                        <div class="form-group1 col-md-12">
+                                                            <label class="control-label">Meddelande</label>
+                                                            <textarea class="form-control" name="message" placeholder="Ditt Meddelande..."></textarea>
+                                                        </div>
+                                                        <div class="form-group1 col-md-12">
+                                                            <button type="submit" class="button  btn_blue mt40 upper pull-left">
+                                                                <i class="fa fa-paper-plane-o" aria-hidden="true"></i> Skicka Meddelande
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                            
+                                            <!-- <div class="col-md-4">
+                                                <div class="main_title a_left">
+                                                    <h2><br><br><br> KONTAKT UPPGIFTER</h2>
+                                                </div>
+                                                <ul class="contact-info upper">
+                                                    <li>
+                                                        <span>ADDRESS:</span> Sollentunavägen 133, 191 44 Sollentuna
+                                                    </li>
+                                                    <li>
+                                                        <span>E-Post:</span> info@ettsmart.se
+                                                    </li>
+                                                    <li>
+                                                        <span>WEBBADRESS:</span> www.ettsmart.se
+                                                    </li>
+                                                    <li>
+                                                        <span>telefon:</span> 08 546 308 10 
+                                                    </li>
+                                    
+                                                </ul>
+                                                <div class="social_media">
+                                                    <a class="facebook" href="https://www.facebook.com/Ett-smart-hotell-i-Sollentuna-181842248555187/"><i class="fa fa-facebook"></i></a>
+                                                </div>
+                                            </div> -->
+                                      <!--  </div>-->
                                         </div>
-                                        <button class="button btn_lg btn_blue btn_full" type="submit">BOKA RUM NU</button>
-                                        <div class="a_center mt10">
-                                            <a href="http://booking.visbook.com/se/1157" class="a_b_f">AVANCERAT BOKNINGS FORMULÄR</a>
-                                        </div>
-                                    </form>
-                                </div>
-                            </aside>
-                            <!--<aside class="widget">
-                                <h4>Behöver du hjälp?</h4>
-                                <div class="help">
-                                    Om du har några frågor tveka inte med att kontakta oss!
-                                    <div class="phone"><i class="fa  fa-phone"></i><a href="tel:08350260"> 08 350 260 </a></div>
-                                    <div class="email"><i class="fa  fa-envelope-o "></i><a href="info@ettsmart.se"> info@ettsmart.se </a> eller gå till <a href="contact.html"> kontaka oss </a></div>
-                                </div>
-                            </aside> -->
+                                   </div>
+                                    </div> 
+                                </main>
+                                <h1><strong>Om Vindsvåningen</strong></h1>
+                                <p><br> Vindsvåningen är placerad längst upp i <br> huvudbyggnaden. Utrustad med<br> komplett kök, matsal, 6-Bäddar och <br> ett sällskapsrum.<br> <br> Vindsvåningen är stor nog för matlagning såväl som umgänge. Ett matbord står passande någon meter från köket, därintill har man utsikt över hela Hersby-parken. Sällskapsrumet inbrevid är utrustat med hörnsoffa, Skrivbord och plasma TV. <br> <br> Lakan och handukar byts dagligen av hotellets personal. <br>  Vårat mål är att göra din vistelse så trevlig som möjligt.
+                                    <br> <br> Hela området har <span id="smart-hotell"> Gratis Wi-Fi</span></p>
+                                
+                            
+                            
                             <aside class="widget">
                                 <!--<h4>Latest Posts</h4>
                                 <div class="latest_posts">

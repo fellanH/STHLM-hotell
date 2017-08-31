@@ -4467,15 +4467,16 @@ footer.dark .subfooter .social_media a {
 
 
 
-
 .contact_page {
     height: 650px;
+    position: relative;
+    right: 15px;
 }
 
 .contact-form-page .form-group1 {
     padding-bottom: 15px;
     top: -23px;
-    position: relative;
+
 }
 
 .contact-form-page .form-group1 textarea {
