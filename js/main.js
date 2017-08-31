@@ -940,8 +940,8 @@
 
             var map;
             var panorama;
-            var var_latitude = 59.423004; // Google Map Latitude
-            var var_longitude = 17.954743; // Google Map Longitude
+            var var_latitude = 59.417736; // Google Map Latitude
+            var var_longitude = 17.918668; // Google Map Longitude
             var pin = 'images/icons/pin.svg';
 
             //Map pin-window details
