@@ -2612,7 +2612,7 @@ section .main_title-index {
 }
 
 #features .owl-thumb-item .media-left {
-    color: #FF704C;
+    color: #e74c3c;
     font-size: 2em;
     line-height: 2em;
     text-align: center;
@@ -3077,8 +3077,8 @@ section .main_title-index {
 }
 
 .contact-items .contact-item {
-    background: #FF704C;
-    border: 1px solid #FF704C;
+    background: #e74c3c;
+    border: 1px solid #e74c3c;
     padding: 5px;
     color: #fff;
     margin-bottom: 8px;
@@ -4430,7 +4430,7 @@ footer.dark .subfooter .social_media a {
 }
 
 .countup_box .inner {
-    background: #ff704c;
+    background: #e74c3c;
     width: 100%;
     height: 100%;
     border-radius: 4px;
@@ -4562,7 +4562,7 @@ footer.dark .subfooter .social_media a {
 #contact_page_style_2 .contact-info li span {
     display: block;
     font-size: 1em;
-    color: #FF704C;
+    color: #e74c3c;
     font-weight: 900;
     margin-bottom: 10px;
 }
