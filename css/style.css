@@ -601,7 +601,7 @@ blockquote .quote_text {
 }
 
 .form-control {
-    color: #b3b3b3;
+    color: #555;
     border: 1px solid #e6eff2;
     box-shadow: none;
     border-radius: 1px;
@@ -636,7 +636,7 @@ textarea.form-control {
 }
 
 .form-control::-webkit-input-placeholder {
-    color: #555;
+    color: #b3b3b3;
 }
 
 .form-control:-moz-placeholder {
@@ -3104,7 +3104,7 @@ section .main_title-index {
 }
 
 #contact-form {
-    margin-top: 20px;
+    
 }
 
 #contact .form-control {
@@ -4481,7 +4481,12 @@ footer.dark .subfooter .social_media a {
     background-color: rgba(247, 247, 247, 0.95);
 }
 
+#about-text {
+    padding-top: 70px;
+}
 
+.about-room-text {
+}
 
 .contact-form-page {
     margin-top: 30px;
@@ -4502,11 +4507,14 @@ footer.dark .subfooter .social_media a {
     height: 135px;
 }
 
-
+#contact_form {
+    padding-bottom: 0;
+    z-index: 99999;
+}
 
 
 .contact_page {
-    height: 650px;
+    height: auto;
     position: relative;
     right: 15px;
 }
@@ -4518,7 +4526,7 @@ footer.dark .subfooter .social_media a {
 }
 
 .contact-form-page .form-group1 textarea {
-    height: 240px;
+    height: 140px;
 
 }
 
