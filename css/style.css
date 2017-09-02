@@ -4485,7 +4485,9 @@ footer.dark .subfooter .social_media a {
     padding-top: 70px;
 }
 
-.about-room-text {
+.send-message {
+    position: relative;
+    bottom: 37px;
 }
 
 .contact-form-page {
