@@ -921,15 +921,15 @@ button {
 
 .button.btn_blue,
 .button-close.btn_blue {
-    background: #34495e;
-    border-color: #34495e;
+    background: #5EA2B0;
+    border-color: #5EA2B0;
     color: #fff;
 }
 
 .button.btn_yellow,
 .button-close.btn_yellow {
-    background: #e74c3c;
-    border-color: #e74c3c;
+    background: #9b59b6;
+    border-color: #9b59b6;
     color: #fff;
 }
 
@@ -974,8 +974,8 @@ button {
 .button-close.btn_yellow:hover,
 .button-close.btn_yellow:active,
 .button-close.btn_yellow:focus {
-    background: #FF944C;
-    border-color: #FF944C;
+    background: #B63C71;
+    border-color: #B63C71;
 }
  
 .button.btn_gold:hover,
@@ -1027,7 +1027,7 @@ button {
     text-transform: uppercase;
     padding: 21px 40px;
     padding: 21px 40px;
-    background: #FF944C;
+    background: #B63C71;
     color: #ffffff;
     letter-spacing: 1px;
     border: none;
@@ -1764,7 +1764,7 @@ button {
 #back_to_top {
     height: 55px;
     width: 55px;
-    background: #e74c3c;
+    background: #9b59b6;
     border-radius: 3px;
     right: -100px;
     bottom: 15px;
@@ -1783,7 +1783,7 @@ button {
 
 #back_to_top:hover,
 #back_to_top:focus {
-    background: #EF7A6E;
+    background: #B63C71;
     box-shadow: 0 5px 10px 0 rgba(35, 50, 56, 0.1);
 }
 
@@ -2109,7 +2109,7 @@ header .navbar-header .mobile_menu_btn.active .icon-bar:nth-of-type(3) {
 }
 
 #main_menu .navbar-nav li.active a {
-    color: #FF944C;
+    color: #B63C71;
 }
 
 .transparent #main_menu .navbar-nav li a {
@@ -2121,7 +2121,7 @@ header .navbar-header .mobile_menu_btn.active .icon-bar:nth-of-type(3) {
 }
 
 .transparent.nav_bg #main_menu .navbar-nav li.active a.dropdown-toggle, .transparent #main_menu .navbar-nav li.active a.dropdown-toggle {
-    color: #FF944C;
+    color: #B63C71;
 }
 
 .scroll #main_menu .navbar-nav li a {
@@ -2148,8 +2148,8 @@ header .navbar-header .mobile_menu_btn.active .icon-bar:nth-of-type(3) {
 #main_menu .navbar-nav .menu_button .button:hover,
 #main_menu .navbar-nav .menu_button .button:focus,
 #main_menu .navbar-nav .menu_button .button:active {
-    background: #FF944C;
-    border-color: #FF944C;
+    background: #B63C71;
+    border-color: #B63C71;
     color: #fff !important;
 }
 
@@ -2318,8 +2318,8 @@ section .main_title {
 }
 
 section .main_title-index {
-    margin-bottom: 0px;
-    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-top: 25px;
 }
 
 /* ---------- 5.2 Revolution Slider ---------- */
@@ -3077,8 +3077,8 @@ section .main_title-index {
 }
 
 .contact-items .contact-item {
-    background: #e74c3c;
-    border: 1px solid #e74c3c;
+    background: #9b59b6;
+    border: 1px solid #9b59b6;
     padding: 5px;
     color: #fff;
     margin-bottom: 8px;
@@ -3556,14 +3556,16 @@ section .main_title-index {
     padding: 35px 0;
 }
 
-.hbf_3 .inner .form-control {
+.hbf_3 .inner .form-control,
+.form-control-custom {
     height: 42px;
     background: #fff;
     border: 1px solid #cfd7da;
     color: #a9a9a9;
 }
 
-.hbf_3 .inner .form-control .btn-select {
+.hbf_3 .inner .form-control .btn-select,
+.form-control-custom {
   padding: 10px 12px;
 }
 
