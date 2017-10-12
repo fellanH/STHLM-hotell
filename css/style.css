@@ -4485,6 +4485,7 @@ footer.dark .subfooter .social_media a {
 
 #about-text {
     padding-top: 70px;
+    padding-left: 0px;
 }
 
 .send-message {
@@ -5454,3 +5455,4 @@ figure:hover .room_list_slider .owl-nav .owl-next {
     position: relative;
     bottom: 53px;
     }
+
