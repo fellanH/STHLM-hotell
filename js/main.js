@@ -50,7 +50,7 @@
             if (header.length > 0) {
 
                 var window_height = $(this).scrollTop();
-                var topmenuheight = 50;
+                var topmenuheight = 32;
 
                 if (window_height > topmenuheight) {
 
