@@ -2024,13 +2024,13 @@ header.transparent.nav_bg {
 
 header .navbar-header .navbar-brand {
     padding: 15px 0;
-    margin-top: 15px;
+    margin-top: 0px;
     -webkit-transition: all .3s;
     transition: all .3s;
 }
 
 header.scroll .navbar-header .navbar-brand {
-    padding: 20px 0;
+    padding-top: 10px;
     margin-top: 0px;
 }
 
