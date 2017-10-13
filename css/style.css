@@ -5456,3 +5456,7 @@ figure:hover .room_list_slider .owl-nav .owl-next {
     bottom: 53px;
     }
 
+.desc-contain {
+    width: 80%;
+}
+
