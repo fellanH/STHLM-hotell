@@ -9,18 +9,18 @@ if($_POST)
     
     // Site Settings 
     $site_title          = "STHLM Hotel";
-    $site_url            = "https://STHLM-hotel.com/";
+    $site_url            = "https://STHLMhotel.se/";
     // $facebook_link       = "https://www.facebook.com/"; 
     // $twitter_link        = "https://twitter.com/"; 
     $admin_phone         = "+46 854 630 800";
 
     // Email Settings
     $admin_email         = "fehellstrom@gmail.com";
-    $admin_subject       = "STHLM Hotel - New Reservation"; 
-    $customer_subject    = "STHLM Hotel - Booking Details"; 
+    $admin_subject       = "STHLM Hotel - Reservation"; 
+    $customer_subject    = "STHLM Hotel - Bokningsdetaljer"; 
     
     // Output Messages
-    $success_mssg        = "Your reservation has been submitted to us.<br> We'll contact you as quickly as possible.";
+    $success_mssg        = "Din reservation har mottagits.<br> Vi kontaktar dig så snart som möjligt.";
     $error_mssg          = "An error has occurred. Please check your PHP email configuration.";
     $email_mssg          = "Please enter a valid email!"; 
     $booking_date        = "You can't depart before you arrive"; 

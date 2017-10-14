@@ -9,7 +9,7 @@ if($_POST)
     
     // Site Settings 
     $site_title          = "STHLM Hotel";
-    $site_url            = "https://STHLM-hotel.com/";
+    $site_url            = "https://STHLMhotel.com/";
     // $facebook_link       = "https://www.facebook.com/"; 
     // $twitter_link        = "https://twitter.com/"; 
     $admin_phone         = "+46 854 630 800";
