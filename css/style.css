@@ -3750,6 +3750,7 @@ footer.dark .subfooter .social_media a {
     padding: 40px 0;
     background-repeat: no-repeat;
     background-size: cover;
+    background: url(images/page_title_bg.jpg);
 }
 
 .page_title .inner { 

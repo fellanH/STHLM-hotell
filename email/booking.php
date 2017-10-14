@@ -8,16 +8,16 @@ if($_POST)
     ##################################################################################################################
     
     // Site Settings 
-    $site_title          = "Zante Hotel";
-    $site_url            = "https://eagle-themes.com/zantehotel";
-    $facebook_link       = "https://www.facebook.com/"; 
-    $twitter_link        = "https://twitter.com/"; 
-    $admin_phone         = "18881234567";
+    $site_title          = "STHLM Hotel";
+    $site_url            = "https://STHLM-hotel.com/";
+    // $facebook_link       = "https://www.facebook.com/"; 
+    // $twitter_link        = "https://twitter.com/"; 
+    $admin_phone         = "+46 854 630 800";
 
     // Email Settings
-    $admin_email         = "contact@eagle-themes.com";
-    $admin_subject       = "Zante Hotel - New Reservation"; 
-    $customer_subject    = "Zante Hotel - Booking Details"; 
+    $admin_email         = "fehellstrom@gmail.com";
+    $admin_subject       = "STHLM Hotel - New Reservation"; 
+    $customer_subject    = "STHLM Hotel - Booking Details"; 
     
     // Output Messages
     $success_mssg        = "Your reservation has been submitted to us.<br> We'll contact you as quickly as possible.";
@@ -28,8 +28,8 @@ if($_POST)
     $empty_roomtype      = "Room Type is empty!<br> Please enter something.";
     $empty_checkin       = "Arrival Date is empty!<br> Please enter something.";
     $empty_checkout      = "Departure Date is empty!<br> Please enter something.";
-    $empty_adults        = "Adults is empty!<br> Please enter something.";
-    $empty_children      = "Children is empty!<br> Please enter something.";
+    // $empty_adults        = "Adults is empty!<br> Please enter something.";
+    // $empty_children      = "Children is empty!<br> Please enter something.";
     $empty_name          = "Name is empty!<br> Please enter something.";
     $empty_phone         = "Phone Number is empty!<br> Please enter something.";
     $empty_comments      = "Coomments section is empty!<br> Please enter something.";
@@ -55,8 +55,8 @@ if($_POST)
     $roomtype           = filter_var($_POST["booking_roomtype"], FILTER_SANITIZE_STRING);
     $checkin            = filter_var($_POST["booking_checkin"], FILTER_SANITIZE_STRING);
     $checkout           = filter_var($_POST["booking_checkout"], FILTER_SANITIZE_STRING);
-    $adults             = filter_var($_POST["booking_adults"], FILTER_SANITIZE_STRING);
-    $children           = filter_var($_POST["booking_children"], FILTER_SANITIZE_STRING);
+    // $adults             = filter_var($_POST["booking_adults"], FILTER_SANITIZE_STRING);
+    // $children           = filter_var($_POST["booking_children"], FILTER_SANITIZE_STRING);
     $customer_name      = filter_var($_POST["booking_name"], FILTER_SANITIZE_STRING);
     $customer_phone     = filter_var($_POST["booking_phone"], FILTER_SANITIZE_STRING);
     $comments           = filter_var($_POST["booking_comments"], FILTER_SANITIZE_STRING);
@@ -66,8 +66,8 @@ if($_POST)
     if(empty($roomtype)){$output = json_encode(array('type'=>'error', 'text' => $empty_roomtype)); die($output);}
     if(empty($checkin)){$output = json_encode(array('type'=>'error', 'text' => $empty_checkin)); die($output);}
     if(empty($checkout)){$output = json_encode(array('type'=>'error', 'text' => $empty_checkout)); die($output);}
-    if(empty($adults) && ($adults != '0')){$output = json_encode(array('type'=>'error', 'text' => $empty_adults)); die($output);}
-    if(empty($children) && ($children != '0')){$output = json_encode(array('type'=>'error', 'text' => $empty_children)); die($output);}
+    // if(empty($adults) && ($adults != '0')){$output = json_encode(array('type'=>'error', 'text' => $empty_adults)); die($output);}
+    // if(empty($children) && ($children != '0')){$output = json_encode(array('type'=>'error', 'text' => $empty_children)); die($output);}
     //if(empty($customer_name)){$output = json_encode(array('type'=>'error', 'text' => $empty_name));die($output);}
     //if(empty($customer_phone)){$output = json_encode(array('type'=>'error', 'text' => $empty_phone));die($output);}
     //if(empty($comments)){$output = json_encode(array('type'=>'error', 'text' => $empty_comments));die($output);}
@@ -95,8 +95,8 @@ if($_POST)
     $admin_message = str_replace('%customer_email%', $customer_email, $admin_message);
     $admin_message = str_replace('%customer_phone%', $customer_phone, $admin_message);
     $admin_message = str_replace('%roomtype%', $roomtype, $admin_message);
-    $admin_message = str_replace('%adults%', $adults, $admin_message);
-    $admin_message = str_replace('%children%', $children, $admin_message);
+    // $admin_message = str_replace('%adults%', $adults, $admin_message);
+    // $admin_message = str_replace('%children%', $children, $admin_message);
     $admin_message = str_replace('%checkin%', $checkin, $admin_message);
     $admin_message = str_replace('%checkout%', $checkout, $admin_message);
     $admin_message = str_replace('%country%', $country, $admin_message);
@@ -111,8 +111,8 @@ if($_POST)
     $customer_message = str_replace('%customer_email%', $customer_email, $customer_message);
     $customer_message = str_replace('%customer_phone%', $customer_phone, $customer_message);
     $customer_message = str_replace('%roomtype%', $roomtype, $customer_message);
-    $customer_message = str_replace('%adults%', $adults, $customer_message);
-    $customer_message = str_replace('%children%', $children, $customer_message);
+    // $customer_message = str_replace('%adults%', $adults, $customer_message);
+    // $customer_message = str_replace('%children%', $children, $customer_message);
     $customer_message = str_replace('%checkin%', $checkin, $customer_message);
     $customer_message = str_replace('%checkout%', $checkout, $customer_message);
     $customer_message = str_replace('%country%', $country, $customer_message);
