@@ -3775,7 +3775,7 @@ footer.dark .subfooter .social_media a {
 
 .page_title .price .inner {
     margin: -5px;
-    background-color: #e74c3c;
+    background-color: #5EA2B0;
     width: 70px;
     height: 70px;
     border-radius: 4px;
@@ -3792,12 +3792,12 @@ footer.dark .subfooter .social_media a {
     height: 80px;
     margin-top: 10px;
     border-radius: 4px;
-    background: rgba(174, 55, 43, 0.50);
+    background: rgba(94, 162, 176   , 0.50);
 }
 
 .page_title .price2 .inner {
     margin: -5px;
-    background-color: #e74c3c;
+    background-color: #5EA2B0;
     width: 80px;
     height: 80px;
     border-radius: 4px;
@@ -5352,7 +5352,7 @@ figure:hover .room_list_slider .owl-nav .owl-next {
 }
 
 .similar_rooms article .price {
-    background: #e74c3c;
+    background: #5EA2B0;
     width: 50px;
     height: 50px;
     border-radius: 4px;
