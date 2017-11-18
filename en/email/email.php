@@ -5,7 +5,7 @@ if($_POST)
     
     // Email Settings
     $site_title     = "STHLM Hotel";
-    $to_email       = "fehellstrom@gmail.com"; 
+    $to_email       = "info@sthlmhotel.se"; 
     $subject        = "STHLM Hotel - New Message"; 
     
     // Output Messages
