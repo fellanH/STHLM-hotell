@@ -631,8 +631,21 @@
     <script type="text/javascript" src="js/combined.min.js"></script>
     
     <!-- ========== REVOLUTION SLIDER ========== -->
+<<<<<<< HEAD
     <script type="text/javascript" src="revolution/js/revolutionslider-combined.min.js"></script>
 
 
+=======
+    <script type="text/javascript" src="revolution/js/revolutionslider.min.js"></script>
+    <script>
+            function init() {
+            var imgDefer = document.getElementsByTagName('img');
+            for (var i=0; i<imgDefer.length; i++) {
+            if(imgDefer[i].getAttribute('data-src')) {
+            imgDefer[i].setAttribute('src',imgDefer[i].getAttribute('data-src'));
+            } } }
+            window.onload = init;
+    </script>
+>>>>>>> c8efbf8098b5698013c34e2be5e6427e92e66903
 </body>
 </html>
