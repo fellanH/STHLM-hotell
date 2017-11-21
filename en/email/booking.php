@@ -15,8 +15,8 @@ if($_POST)
     $admin_phone         = "+46 854 630 800";
 
     // Email Settings
-    $admin_email         = "info@sthlmhotel.se";
-    $admin_subject       = "STHLM Hotel - New Reservation"; 
+    $admin_email         = "fehellstrom@gmail.com";
+    $admin_subject       = "Booking request"; 
     $customer_subject    = "STHLM Hotel - Booking Details"; 
     
     // Output Messages

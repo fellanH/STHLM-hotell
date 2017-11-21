@@ -16,7 +16,7 @@ if($_POST)
 
     // Email Settings
     $admin_email         = "info@sthlmhotel.se";
-    $admin_subject       = "STHLM Hotel - Reservation"; 
+    $admin_subject       = "Booking request"; 
     $customer_subject    = "STHLM Hotel - Bokningsdetaljer"; 
     
     // Output Messages
