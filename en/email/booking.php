@@ -16,7 +16,7 @@ if($_POST)
 
     // Email Settings
     $admin_email         = "fehellstrom@gmail.com";
-    $admin_subject       = "Booking request"; 
+    $admin_subject       = "STHLM Hotel - New Reservation"; 
     $customer_subject    = "STHLM Hotel - Booking Details"; 
     
     // Output Messages

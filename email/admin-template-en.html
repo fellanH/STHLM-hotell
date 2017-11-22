@@ -14,7 +14,7 @@
         .content {
             width: 100%;
             max-width: 600px;
-            border: 1px solid #f5eddb;
+            border: 1px solid #EAE2D1;
         }
         
         .main {
@@ -87,7 +87,6 @@
         
         .mssg {
             font-size: 12px;
-            text-align: center;
         }
         
         .footer {
@@ -96,7 +95,7 @@
         }
         
         .footer a {
-            color: #5EA2B0;
+            color: #1dc1f8;
         }
         
         .footercopy {
@@ -105,25 +104,30 @@
         }
         
         .footercopy a {
-            color: #5EA2B0;
+            color: #1dc1f8;
         }
         
         .social a {
             font-size: 14px;
-        }
-        
-        @media screen and (max-width: 600px) { .main { padding: 0; } }
+        }        
+
+@media screen and (max-width: 600px) { .main { padding: 0; } }
+
     </style>
+    
+    
 </head>
 
 <body yahoo bgcolor="#f5eddb">
+   
+    
     <table width="100%" bgcolor="#f5eddb" class="main" border="0" cellpadding="0" cellspacing="0">
         <tr>
             <td>
 
                 <table bgcolor="#ffffff" class="content" align="center" cellpadding="0" cellspacing="0" border="0">
                     <tr>
-                        <td bgcolor="#5EA2B0" class="eheader">
+                        <td bgcolor="#1dc1f8" class="eheader">
 
                             <table class="col425" align="left" border="0" cellpadding="0" cellspacing="0" style="width: 100%;">
                                 <tr>
@@ -137,7 +141,7 @@
 
                                             <tr>
                                                 <td class="subhead" style="padding: 0 0 0 3px;">
-                                                    Reservation Details
+                                                    Reservation Details - Admin
                                                 </td>
                                             </tr>
 
@@ -153,10 +157,14 @@
                         <td class="innerpadding borderbottom">
                             <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                 <tr>
-                                    <td class="h2">Hello %customer_name%,</td>
+                                    <td class="h2">
+                                        Hello Admin,
+                                    </td>
                                 </tr>
                                 <tr>
-                                    <td class="bodycopy">Your reservation has been submitted to us and we'll contact you as quickly as possible to complete your booking. If you have any question please don't hesitate to contact us via email %admin_email% or via phone number %admin_phone%</td>
+                                    <td class="bodycopy">
+                                        customer %customer_name% requsted a new reservation at %site_title%
+                                    </td>
                                 </tr>
                             </table>
                         </td>
@@ -237,8 +245,7 @@
 
                     <tr>
                         <td class="innerpadding bodycopy mssg">
-                            Thank You,
-                            <br> %site_title% </td>
+                            *Don't forget to contact %customer_name% via email, %customer_email% or click 'reply' in your email browser to make the reservation complete. </td>
                     </tr>
                     <tr>
                         <td class="footer" bgcolor="#f5f5f5">
